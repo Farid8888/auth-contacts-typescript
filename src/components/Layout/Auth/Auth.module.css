@@ -1,0 +1,57 @@
+.form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(42, 10, 71);
+    border-radius: 6px;
+    color: white;
+}
+
+.form h2{
+    margin-bottom: 10px;
+}
+
+label{
+    margin-bottom: 6px;
+    font-size: 1.3rem;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+input{
+    width: 90%;
+    padding: 6px;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    border:none;
+    background-color: rgb(202, 176, 203);
+}
+
+p{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+    padding: 7px 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(174, 112, 232);
+}
+
+p:hover{
+color: rgb(174, 112, 232);
+}

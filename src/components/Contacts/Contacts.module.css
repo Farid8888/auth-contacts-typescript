@@ -1,0 +1,18 @@
+.items{
+    width: 40rem;
+    max-width:95%;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.items button{
+    font-size: 1rem;
+    padding: 8px 40px;
+    border-radius: 2rem;
+    border:none;
+    background-color: rgb(38, 2, 71);
+}
+
+.items button:hover{
+    background-color: blueviolet;
+}
