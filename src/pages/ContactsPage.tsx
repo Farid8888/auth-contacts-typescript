@@ -8,7 +8,7 @@ import {removeHandler} from '../lib/api'
 
 export default function ContactsPage() {
  const {data,status,error,sendRequest} = useHook(getAllContacts)
- const {status:remStatus,error:remError,sendRequest:remRequest} = useHook(removeHandler)
+ const {status:remStatus,sendRequest:remRequest} = useHook(removeHandler)
  useEffect(()=>{
 sendRequest()
  },[sendRequest])
